@@ -1,0 +1,156 @@
+body{
+    font-family:'Montserrat';
+}
+.navbar-nav{
+   margin-left: auto;
+}
+#title{
+    background-color: #ff7e92;
+    color: #fff;
+}
+#nav_heading{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+#container-fluid{
+    padding: 3% 15%;
+}
+
+/* navbar style */
+.navbar{
+    padding:0 0 4.5rem !important;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu';
+    font-size: 2.5rem !important;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-size:"Montserrat";
+}
+
+/* tittle image */
+.phone-image{
+    width: 50%;
+    transform: rotate(25deg);
+    position: relative;
+    left: 20%;
+    top: 5%;
+    
+}
+/* features */
+#features{
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+    
+}
+h3{
+    font-family: "Montserrat-bold";
+    font-size: 2rem !important;
+    font-weight: bold;
+}
+.feature-box{
+    text-align: center;
+    padding: 5%;
+    
+}
+.font{
+    font-size: 3rem;
+    color: brown;
+}
+.font:hover{
+    color: #ff4c68;
+}
+p{
+   color:grey
+}
+
+
+/* testimonials sections */
+#testimonials{
+    
+    text-align: center;
+    background-color: #ff7e92;
+    color: #fff;
+}
+.testimonial-text{
+    color: #fff;
+    line-height: 1.5;
+    font-family: "Montserrat";
+    font-size: 2.5rem;
+}
+.testimonials-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.carousel-item{
+    padding: 5% 15%;
+}
+
+/* press secton   */
+#press{
+    background-color: #ff7e92;
+    padding-bottom: 3%;
+    text-align: center;
+}
+.press-image{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* pricing section   */
+#pricing{
+    padding: 100px;
+}
+.pricing-column{
+    padding:3% 2%;
+}
+
+/* cta section */
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+     padding: 30px 20px 40px 20px;
+ 
+}
+
+.cta-heading{
+    font-family: "Montserrat"!important;
+    font-size: 2rem !important;
+    line-height: 1.5;
+    color:white;
+}
+.cta-btn{
+    padding-top: 10px;
+}
+
+/* footer content */
+#footer{
+    text-align: center;
+    padding-top: 8%;
+}
+.footer-icon{
+   margin: 5px;
+}
+
+@media(max-width:991px){
+  .phone-image{
+      position: static;
+      transform: rotate(0);
+      margin-top: 15px;
+      
+
+  }
+  #title{
+      text-align: center;
+      
+  }
+}
